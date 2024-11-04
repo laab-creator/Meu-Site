@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devic-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vida Saudável</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/pexels-mikhail-nilov-6740520.jpg">
+        </div>
+        <div class="box-txt">
+            <span>Saúde plena, Vida serena!</span>
+            <h2>Dicas de como viver bem <br> e ter uma vida saudável</h2>
+            <p>A vida saudável refere-se a um estilo de vida que promove o bem-estar físico, mental e emocional. É uma abordagem holística que envolve diversos aspectos da vida cotidiana, todos interconectados e fundamentais para a manutenção da saúde. Vamos detalhar os principais componentes:</p>
+            <a href="#" class="btn-hero">Saiba mais!</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Alimentação Balanceada</h3>
+            <p> O que é: Consiste em consumir uma variedade de alimentos que fornecem todos os nutrientes necessários.
+
+                Frutas e Vegetais: Tente incluir pelo menos 5 porções por dia. Eles são ricos em vitaminas, minerais e fibras.
+
+                Grãos Integrais: Opte por arroz integral, quinoa, aveia e pães integrais. Eles são mais nutritivos e ajudam a manter a saciedade.
+
+                Proteínas Magras: Inclua fontes como peixes, frango, legumes e tofu. Eles ajudam na construção e reparo dos tecidos.
+
+                Gorduras Saudáveis: Prefira azeite de oliva, abacate e nozes. Essas gorduras são importantes para a saúde do coração.
+            </p>
+        </div>
+        <div class="box-item">
+            <h4>Hidratação</h4>
+            <p>O que é: Manter-se bem hidratado é crucial para o funcionamento do corpo.
+
+                Quantia: A recomendação geral é de pelo menos 2 litros de água por dia, mas isso pode variar conforme a atividade física e o clima.
+
+                Dicas: Sempre tenha uma garrafinha de água por perto e comece o dia com um copo de água.
+            </p>
+        </div>
+        <div class="box-item">
+            <h5>Atividade Física</h5>
+            <p>O que é: O exercício regular é essencial para manter o corpo e a mente saudáveis.
+
+                Tipos de Exercício: Inclua atividades aeróbicas (caminhar, correr, nadar), treinamento de força (musculação, pilates) e alongamento.
+
+                Frequência: Busque realizar pelo menos 150 minutos de atividade moderada ou 75 minutos de atividade intensa por semana.
+
+                Dicas: Encontre uma atividade que você goste, para que seja mais fácil manter a rotina.
+            </p>
+        </div>
+        <a href="#" class="m-top btn-hero">Saiba mais!</a>
+    </section>
+
+    <footer>
+        <p>2024 ₢ Vida Saudável. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        //PEGAR O ELEMENTO
+        const doutora = document.getElementById('doutora');
+        
+        //EVENTO QUANDO MOUSE ESTIVER POR CIMA DA IMAGEM
+        doutora.addEventListener('mouseover', function() {
+            doutora.src = "img/pexels-mikhail-nilov-6740516.jpg"
+        });
+
+        //EVENTO QUANDO MOUSE SAIR DE CIMA DA IMAGEM
+        doutora.addEventListener('mouseout', function() {
+            doutora.src = "img/pexels-mikhail-nilov-6740520.jpg"
+        });
+        
+
+    </script>
+</body>
+
+</html>
